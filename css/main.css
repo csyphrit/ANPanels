@@ -1,0 +1,305 @@
+body {
+    background: #EFEFEF;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div.breadcrumbs {
+    font-size: 0.9em;
+    padding: 5px 20px;
+}
+div.breadcrumbs span {
+    font-weight: bold;
+}
+.containerDiv {
+    border: 2px solid black;
+    float: left;
+    margin: 0 0 20px;
+    padding: 5px;
+    width: 100%;
+}
+.containerDiv h3 {
+    background: #870000;
+    color: #fff;
+    margin: -5px -5px 10px;
+    padding: 5px;
+    width: 100%;
+}
+.containerDiv .icon {
+    cursor: pointer;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: -35px;
+}
+#content {
+    padding: 20px;
+}
+#eventEdit {
+    display: none;
+}
+div.flash-error, div.flash-notice, div.flash-success {
+    border: 2px solid #ddd;
+    margin-bottom: 1em;
+    padding: .8em;
+}
+div.flash-error {
+    background: #FBE3E4;
+    border-color: #FBC2C4;
+    color: #8a1f11;
+}
+div.flash-error a {
+    color: #8a1f11;
+}
+div.flash-notice {
+    background: #FFF6BF;
+    border-color: #FFD324;
+    color: #514721;
+}
+div.flash-notice a {
+    color: #514721;
+}
+div.flash-success {
+    background: #E6EFC2;
+    border-color: #C6D880;
+    color: #264409;
+}
+div.flash-success a {
+    color: #264409;
+}
+#footer {
+    border-top: 1px solid #C9E0ED;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 10px 20px;
+    text-align: center;
+}
+div.form .rememberMe label {
+    display: inline;
+}
+#header {
+    border-bottom: 3px solid #000;
+    border-top: 3px solid #000;
+    margin: 0;
+    padding: 0;
+}
+#leftColumn {
+    float: left;
+    width: 46%;
+}
+#logo {
+    background-color: #870000;
+    background-image: url("http://www.animenorth.com/live/templates/jt014_j15/images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 200%;
+    height: 130px;
+    padding: 10px 20px;
+}
+#mainmenu {
+    background: #870000;
+    height: 30px;
+}
+#mainmenu ul {
+    padding: 6px 20px 6px 20px;
+    margin: 0;
+}
+#mainmenu ul li {
+    display: inline;
+}
+#mainmenu ul li a {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+#mainmenu ul li a:hover,
+#mainmenu ul li.active a {
+    background-color: #fff;
+    color: #870000;
+    text-decoration: none;
+}
+.operations {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.operations li {
+    padding-bottom: 2px;
+}
+.operations li a {
+    color: #0066A4;
+    display: block;
+    font: bold 12px Arial;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+.operations li a:visited {
+    color: #0066A4;
+}
+.operations li a:hover {
+    background: #80CFFF;
+}
+#page {
+    background: white;
+    border: 1px solid #C9E0ED;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.panel {
+    margin-bottom: 20px;
+}
+.panel span {
+    display: block;
+}
+.panel .control-label span {
+    display: inline;
+}
+.panel .name {
+    font-weight: bold;
+}
+.portlet-content {
+    background: #EFFDFF;
+    font-size: 0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+}
+.portlet-content li {
+    padding: 2px 0 4px 0;
+}
+.portlet-content ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.portlet-decoration {
+    background: #B7D6E7;
+    border-left: 5px solid #6FACCF;
+    padding: 3px 8px;
+}
+.portlet-title {
+    color: #298dcd;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+#registeredPanels .panel,
+#confirmedPanels .panel {
+    display: block;
+    margin-bottom: 10px;
+}
+#registeredPanels .panel span,
+#confirmedPanels .panel span {
+    display: block;
+}
+#registeredPanels .panel .name,
+#confirmedPanels .panel .name {
+    font-weight: bold;
+}
+#register-form .radio input,
+div.form .radio label {
+    display: inline;
+}
+#RegisterForm_status,
+#RegisterForm_age {
+    display: block;
+}
+.reportButton {
+    background-color: #888;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 100px;
+    margin: 5px 25px;
+    padding: 8px;
+    text-decoration: none;
+    width: 300px;
+}
+#rightColumn {
+    float: right;
+    margin-right: 25px;
+    width: 46%;
+}
+.room {
+    clear: both;
+}
+.rooms a,
+a.button {
+    border: 1px solid;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    margin: 1px;
+    padding: 4px;
+    text-decoration: none;
+    width: 100px;
+}
+div.search-form {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+}
+a.selected {
+    background: #888;
+    color: white;
+}
+#sidebar {
+    padding: 20px 20px 20px 0;
+}
+div.view {
+    border: 1px solid #C9E0ED;
+    margin: 10px 0;
+    padding: 10px;
+}
+.grid-view table.items {
+    font-size: 14px;
+}
+ul.event-nav {
+    margin-bottom: 0;
+}
+a.filters-link {
+    top: 9px;
+    position: relative;
+    font-weight: bold;
+}
+a.filters-link:hover {
+    text-decoration: none;
+}
+a.filters-link span.glyphicon-chevron-down {
+    display: inline;
+    top: 3px;
+}
+
+@media (max-width: 600px) {
+    #logo {
+        display: none;
+    }
+    #leftColumn {
+        float: left;
+        width: 100%;
+    }
+    #rightColumn {
+        float: left;
+        margin-right: 25px;
+        width: 100%;
+    }
+    body  {
+        font-size: 2em;
+    }
+    #mainmenu {
+        height: 150px;
+    }
+    #mainmenu ul li a {
+        font-size: 34px;
+    }
+}

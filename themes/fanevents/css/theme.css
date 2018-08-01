@@ -1,0 +1,19 @@
+#logo {
+    background-color: #002635;
+    background-image: url("../images/fef_title.png");
+    height: 180px;
+}
+.containerDiv h3 {
+    background: #002635;
+}
+#footer {
+    border-top: 1px solid #002635;
+}
+#mainmenu {
+    background: #002635;
+}
+#mainmenu ul li a:hover,
+#mainmenu ul li.active a {
+    background-color: #fff;
+    color: #002635;
+}

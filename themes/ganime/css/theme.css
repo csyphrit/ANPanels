@@ -1,0 +1,20 @@
+#logo {
+    background-color: #774c3d;
+    background-image: url("../images/ganime-banner.jpg");
+    background-position: top right;
+    height: 176px;
+}
+.containerDiv h3 {
+    background: #774c3d;
+}
+#footer {
+    border-top: 1px solid #774c3d;
+}
+#mainmenu {
+    background: #774c3d;
+}
+#mainmenu ul li a:hover,
+#mainmenu ul li.active a {
+    background-color: #fff;
+    color: #774c3d;
+}

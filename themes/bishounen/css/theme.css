@@ -1,0 +1,24 @@
+#logo {
+    background-color: #fff;
+    background-image: url("../images/bishiconlogo.png");
+    background-position: top center;
+    height: 170px;
+}
+.containerDiv h3 {
+    background: #ccb3ff;
+}
+#header {
+    border-top: none;
+    border-bottom: 1px solid #000;
+}
+#footer {
+    border-top: 1px solid #ccb3ff;
+}
+#mainmenu {
+    background: #ccb3ff;
+}
+#mainmenu ul li a:hover,
+#mainmenu ul li.active a {
+    background-color: #fff;
+    color: #ccb3ff;
+}
